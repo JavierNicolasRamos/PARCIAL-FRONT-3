@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Form.css"; // Import your CSS file for styling
+import "./styles/Form.css"; // Import your CSS file for styling
 
 function Form({ onAddPelicula }) {
   const [titulo, setTitulo] = useState("");

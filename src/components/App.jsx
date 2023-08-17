@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import Form from './Form'
 import Card from './Card';
-import './App.css'
+import './styles/App.css'
 
 function App() {
   const [peliculas,setPeliculas]=useState([]);
